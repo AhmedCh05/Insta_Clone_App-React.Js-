@@ -3,11 +3,307 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.profile{
+  margin: 5px;
+  height:50px;
+  width:50px;
+  border:2px solid;
+  border-radius: 70%;
+  border-color:yellowgreen;
+}
+
+.profileimg{
+  border-radius: 70%;
+  width: 50px;
+  height:50px;
+}
+
+.postheaderwriting{
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 8px;
+}
+
+.postheader{
+  display: flex;
+  flex-direction: row;
+}
+
+.imgpost{
+  display: flex;
+  justify-content: center;
+  width: 45vw;
+  height:25vw;
+}
+.underposticons{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-right: 30px;
+}
+
+.underpostdetails{
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+  flex-wrap :wrap;
+  margin-bottom: 3px;
+}
+
+.left{
+  margin-left: 20px;
+}
+
+.Comments
+{
+  margin: 10px;
+  display: flex;
+  justify-content: left;
+  margin-left: 25px;
+}
+.uposticon{
+  padding: 10px;
+  margin-left: 10px;
+  width:30px;
+  height:28px;
+}
+.uposticon1
+{
+  width:50px;
+  height: 50px;
+}
+.back_icon{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  padding: 6px;
+}
+
+.messageHeader{
+  padding: 9px;
+  margin-left: 12px;
+  align-items: center;
+}
+
+.SearchBarMsg{
+  margin-left: 20px;
+}
+
+.SearchBar{
+  background-color: black;
+  color: white;
+}
+
+.MsgContent{
+  margin-left: 30px;
+}
+.imgmsg{
+  margin-top: 35px;
+  height:50px;
+  width:50px;
+  border:2px solid;
+  border-radius: 70%;
+  border-color:yellowgreen;
+}
+.msgprofile{
+  display: flex;
+  flex-direction: row;
+}
+
+.msgcontenttext{
+  padding-top: 15px;
+  margin-left: 25px;
+  text-align: left;
+}
+
+.msgText{
+  color: white;
+  font: size 0.5px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+.insta{
+  height:100px;
+  max-width:140px;
+  width: 100%;
+}
+p,h1{
+  margin: 0;
+}
+.width{
+  height:100px;
+  width:100px;
+}
+.mar{
+  margin-top: 38px;
+  margin-left: 10px;
+}
+.state{
+  margin-top: 39px;
+  margin-left: 14px;
+  font-size: 20px;
+}
+.state1{
+  margin-top: 4px;
+  margin-left: 8px;
+  font-size: 20px;
+}
+.message{
+  height:30px;
+  width:30px;
+  margin-top: 2rem;
+}
+.left{
+  margin-left: 20px;
+}
+.profile img{
+  height:50px;
+  width:50px;
+  border:2px solid;
+  border-radius: 50%;
+  border-color:lightcoral;
+}
+.profile2 img{
+  height:60px;
+  width:60px;
+  border:2px solid;
+  border-radius: 50%;
+  border-color:lightcoral;
+  margin-top:30px;
+}
+.profile3 img{
+  height:30px;
+  width:30px;
+  border:2px solid;
+  border-radius: 50%;
+  border-color:lightcoral;
+  
+}
+.profile1 img{
+  height:150px;
+  width:150px;
+  border:2px solid;
+  border-radius: 50%;
+  border-color:lightcoral;
+}
+.margin-left{
+  margin-left: 20px;
+}
+.left{
+  margin-left:10px;
+}
+.postImage{
+  height:400px;
+  width:800px;
+}
+.like{
+  height:30px;
+  width:30px;
+  margin-top: 1rem;
+}
+.icon{
+  font-size: 20px;
+}
+.icon1{
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.clr{
+  color: blue;
+}
+.icon2{
+  font-size: 30px;
+  margin-left: 10px;
+}
+.icon3{
+  font-size: 30px;
+  margin-left: 100px;
+}
+.top{
+  margin-top: -34px;
+}
+.evenly{
+  display: flex;
+  justify-content: space-between;
+}
+.tp{
+  margin-top: 20px;
+}
+.btn{
+  padding: 10px 40px;
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  padding: 10px 50px;
+  transition: 0.5sec;
+}
+.posts{
+  margin-top:10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.posts img{
+  max-width: 275px;
+  height: 200px;
+  width:100%;
+  margin: 3px;
+}
+.point{
+  cursor: pointer;
+}
+.wid{
+  width:75%;
+  margin-left: 3rem;
+
+}
+input[type=text] {
+  border: 1px solid #ccc;
+  width: 500px;
+  padding: 10px 20px;
+}
+.ptr{
+  padding: 10px 20px;
+}
+.left1{
+  margin-left: 100px;
+}
+.recieveMessage{
+  text-align: center;
+  width:50%;
+  height: 50px;
+  background-color: black;
+  color:white;
+  border-radius: 10px;
+  border:1px solid black;
+  margin: 3px;
+
+}
+.sendMessage{
+  text-align: center;
+  width:50%;
+  height: 50px;
+  margin-left: 40%;
+  background-color: purple;
+  color:white;
+  border:1px solid wheat;
+  border-radius: 10px;
 }
